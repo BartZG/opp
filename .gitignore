@@ -5,12 +5,21 @@
 *.pyc
 __pycache__/
 local_settings.py
+
 # virtualenv
 bin/
 include/
 lib/
 .Python
+
 # OSX
 .DS_Store
 .AppleDouble
 .LSOverride
+
+#Sublime project files
+*.sublime-project
+*.sublime-workspace
+
+#Database files
+*.sqlite3
